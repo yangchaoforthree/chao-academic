@@ -28,16 +28,20 @@ short_bio: >-
 portrait_url: /assets/images/photos/photo_chao.jpg
 
 education:
-- name: Your University
-  logo: /assets/images/badges/MIT_Social_circle.png
-  position: >- 
-    Department / School <br/>
-    Ph.D. Student (or M.S. / B.S.)
-  date: 20xx - present
-- name: Your Previous University
-  logo: /assets/images/badges/PKU_red.png
-  position: B.S. in Computer Science (or your major)
-  date: 20xx - 20xx
+- name: The Chinese University of Hong Kong, Shenzhen
+  logo: /assets/images/badges/CUHKSZ.png
+  position: >-
+    School of Data Science <br/>
+    Ph.D. Student in Computer Science
+  date: 2022 - present
+- name: The University of Edinburgh
+  logo: /assets/images/badges/UoE.png
+  position: M.Sc. in Statistics with Data Science
+  date: 2020 - 2022
+- name: Shandong University
+  logo: /assets/images/badges/Shandong_U.jpg
+  position: B.S. in Statistics
+  date: 2016 - 2020
 
 # experience:
 # - name: Peking University
