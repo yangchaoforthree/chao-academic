@@ -3,8 +3,8 @@ secondary_name: ""
 navbar_name: "Chao Yang"
 
 positions:
-- name: Researcher
-- name: Your Affiliation
+- name: Ph.D. Candidate
+- name: School of Data Science, The Chinese University of Hong Kong (Shenzhen)
   logo: /assets/images/badges/MIT_Social_circle.png
 
 
