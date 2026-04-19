@@ -1,21 +1,22 @@
 ---
-title:          "Unveiling Latent Causal Rules: A Temporal Point Process Approach for Abnormal Event Explanation"
-date:           2024-01-22 00:01:00 +0800
+title:          "Latent Logic Tree Extraction for Event Sequence Explanation from LLMs"
+date:           2024-01-23 00:01:00 +0800
 selected:       false
-pub:            "The International Conference on Artificial Intelligence and Statistics (AISTATS)"
+pub:            "The International Conference on Machine Learning (ICML)"
 pub_date:       "2024"
 # semantic_scholar_id: 11ac0b5634a282f1a0da204b98e7473d8b480dfb  # use this to retrieve citation count
 abstract: >-
-  In high-stakes systems such as healthcare, it is critical to understand the causal reasons behind unusual events, such as sudden changes in patient’s health. Unveiling the causal reasons helps with quick diagnoses and precise treatment planning. In this paper, we propose an automated method for uncovering “if-then” logic rules to explain observational events. We introduce temporal point processes to model the events of interest, and discover the set of latent rules to explain the occurrence of events. To achieve this goal, we employ an Expectation-Maximization (EM) algorithm. In the E-step, we calculate the posterior probability of each event being explained by each discovered rule. In the M-step, we update both the rule set and model parameters to enhance the likelihood function’s lower bound. Notably, we will optimize the rule set in a differential manner. Our approach demonstrates accurate performance in both discovering rules and identifying root causes. We showcase its promising results using synthetic and real healthcare datasets.
+  Modern high-stakes systems, such as healthcare or robotics, often generate vast streaming event sequences. Our goal is to design an efficient, plugand-play tool to elicit logic tree-based explanations from Large Language Models (LLMs) to provide customized insights into each observed event sequence. Built on the temporal point process model for events, our method employs the likelihood function as a score to evaluate generated logic trees. We propose an amortized Expectation-Maximization (EM) learning framework and treat the logic tree as latent variables. In the E-step, we evaluate the posterior distribution over the latent logic trees using an LLM prior and the likelihood of the observed event sequences. LLM provides a high-quality prior for the latent logic trees, however, since the posterior is built over a discrete combinatorial space, we cannot get the closed-form solution. We propose to generate logic tree samples from the posterior using a learnable GFlowNet, which is a diversity-seeking generator for structured discrete variables. The M-step employs the generated logic rules to approximate marginalization over the posterior, facilitating the learning of model parameters and refining the tunable LLM prior parameters. In the online setting, our locally built, lightweight model will iteratively extract the most relevant rules from LLMs for each sequence using only a few iterations. Empirical demonstrations showcase the promising performance and adaptability of our framework.
 
-cover:          /assets/images/covers/Unveiling.png
+cover:          /assets/images/covers/LaTee.png
 authors:
-  - Yiling Kuang *
-  - Chao Yang *
-  - Yang Yang
+  - Zitao Song
+  - Chao Yang
+  - Chaojie Wang
+  - Bo An
   - Shuang Li
 links:
-  Paper: https://proceedings.mlr.press/v238/kuang24a/kuang24a.pdf
+  Paper: https://arxiv.org/pdf/2406.01124
   # Code: https://github.com
   # Unsplash: https://unsplash.com/photos/orange-fruit-on-white-table-cloth-ISX_imp8t1o
 ---
