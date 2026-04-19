@@ -6,7 +6,7 @@ pub:            "The International Conference on Artificial Intelligence and Sta
 pub_date:       "2024"
 # semantic_scholar_id: 11ac0b5634a282f1a0da204b98e7473d8b480dfb  # use this to retrieve citation count
 abstract: >-
-  In high-stakes systems such as healthcare, it is critical to understand the causal reasons behind unusual events, such as sudden changes in patient’s health. Unveiling the causal reasons helps with quick diagnoses and precise treatment planning. In this paper, we propose an automated method for uncovering “if-then” logic rules to explain observational events. We introduce temporal point processes to model the events of interest, and discover the set of latent rules to explain the occurrence of events. To achieve this goal, we employ an Expectation-Maximization (EM) algorithm. In the E-step, we calculate the posterior probability of each event being explained by each discovered rule. In the M-step, we update both the rule set and model parameters to enhance the likelihood function’s lower bound. Notably, we will optimize the rule set in a differential manner. Our approach demonstrates accurate performance in both discovering rules and identifying root causes. We showcase its promising results using synthetic and real healthcare datasets.
+  We use temporal point processes and an EM framework to uncover latent causal “if–then” rules, enabling interpretable explanations and root-cause analysis of abnormal events.
 
 cover:          /assets/images/covers/Unveiling.png
 authors:
