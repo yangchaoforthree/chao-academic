@@ -12,7 +12,7 @@ abstract: >-
 cover:          /assets/images/covers/IRL-TPP.png
 authors:
   - Chengzhi Cao *
-  - Yinghao Fu
+  - Yinghao Fu *
   - Chao Yang
   - Shuang Li
 links:
