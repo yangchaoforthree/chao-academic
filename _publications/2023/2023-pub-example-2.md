@@ -1,24 +1,21 @@
 ---
-title:          "Pharetra Massa Massa Ultricies Mi Nisl Tincidunt"
+title:          "Discovering Intrinsic Spatial-Temporal Logic Rules to Explain Human Actions"
 date:           2023-01-21 00:01:00 +0800
 selected:       false
-pub:            "International Conference on Learning Representations (ICLR)"
+pub:            "The Conference on Neural Information Processing Systems (NeurIPS)"
 pub_date:       "2023"
-semantic_scholar_id: 11ac0b5634a282f1a0da204b98e7473d8b480dfb  # use this to retrieve citation count
+# semantic_scholar_id: 11ac0b5634a282f1a0da204b98e7473d8b480dfb  # use this to retrieve citation count
 abstract: >-
-  Photo by Dessy Dimcheva on Unsplash. Please keep the description of your publication as brief as possible. 1~2 sentences is ideal. Otherwise, it will look too noisy. This is a <strong>counterexample</strong> to show how the publication will look like when the abstract is too long.
-  The tangerine is a type of citrus fruit that is orange in color, that is considered either a variety of Citrus reticulata, the mandarin orange, or a closely related species, under the name Citrus tangerina, or yet as a hybrid (Citrus × tangerina) of mandarin orange varieties, with some pomelo contribution.
-  According to the Oxford English Dictionary (OED), the word "tangerine" was originally an adjective meaning "Of or pertaining to, or native of Tangier, a seaport in Morocco, on the Strait of Gibraltar" and "a native of Tangier." The name was first used for fruit coming from Tangier, Morocco, described as a mandarin variety. The OED cites this usage from Addison's The Tatler in 1710 with similar uses from the 1800s. The adjective was applied to the fruit, once known scientifically as "Citrus nobilis var. tangeriana" which grew in the region of Tangiers. This usage appears in the 1800s.
+  We propose a logic-informed knowledge-driven modeling framework for human movements by analyzing their trajectories. Our approach is inspired by the fact that human actions are usually driven by their intentions or desires, and are influenced by environmental factors such as the spatial relationships with surrounding objects. In this paper, we introduce a set of spatial-temporal logic rules as knowledge to explain human actions. These rules will be automatically discovered from observational data. To learn the model parameters and the rule content, we design an expectation-maximization (EM) algorithm, which treats the rule content as latent variables. The EM algorithm alternates between the E-step and M-step: in the E-step, the posterior distribution over the latent rule content is evaluated; in the M-step, the rule generator and model parameters are jointly optimized by maximizing the current expected log-likelihood. Our model may have a wide range of applications in areas such as sports analytics, robotics, and autonomous cars, where understanding human movements are essential. We demonstrate the model’s superior interpretability and prediction performance on pedestrian and NBA basketball player datasets, both achieving promising results.
 
-cover:          /assets/images/covers/cover2.jpg
+cover:          /assets/images/covers/STLR.png
 authors:
-  - Charles Green (MIT)*
-  - John Doe*
-  - Robert White
-  - James Wang
-  - Chao Yang#
+  - Chengzhi Cao
+  - Chao Yang
+  - Ruimao Zhang
+  - Shuang Li
 links:
-  Paper: https://www.biorxiv.org
-  Code: https://github.com
-  Unsplash: https://unsplash.com/photos/orange-fruit-on-white-table-cloth-ISX_imp8t1o
+  Paper: https://proceedings.neurips.cc/paper_files/paper/2023/file/d69fdbe4d13080bb7fa33249ca136976-Paper-Conference.pdf
+  # Code: https://github.com
+  # Unsplash: https://unsplash.com/photos/orange-fruit-on-white-table-cloth-ISX_imp8t1o
 ---
